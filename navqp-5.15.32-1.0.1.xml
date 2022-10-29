@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <include name="imx-5.15.32-2.0.0.xml" />
+
+  <remote fetch="https://github.com/voxelbotics" name="vb" alias="origin"/>
+
+  <project name="meta-vb-imx8mp" path="sources/meta-vb-imx8mp" remote="vb" revision="679b35aac45a3ea6c18b19023a709e831474308c" upstream="imx-5.15.32-vb">
+    <annotation name="linux_rev" value="a7c2d7963acf8d631ed31b482566bc0de70b0432" />
+    <annotation name="uboot_rev" value="fad9018c388ea383459be630cf25631314fdb92b" />
+  </project>
+
+</manifest>
