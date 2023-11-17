@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <include name="imx-6.1.22-2.0.0_desktop.xml" />
+
+  <remote fetch="https://github.com/voxelbotics" name="vb" alias="origin"/>
+  <remote fetch="https://github.com/sbabic" name="swupdate"/>
+
+  <project name="meta-vb-imx8mp" path="sources/meta-vb-imx8mp" remote="vb" revision="imx-6.1.22-vb" upstream="imx-6.1.22-vb">
+    <linkfile dest="navqp-setup-desktop.sh" src="scripts/navqp-setup-desktop.sh"/>
+  </project>
+
+  <project name="meta-swupdate" path="sources/meta-swupdate" remote="swupdate" revision="mickledore" upstream="mickledore" />
+
+</manifest>
